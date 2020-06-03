@@ -46,7 +46,7 @@ function greeting(name){
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-let newGreet = function(name) {
+let newGreeting = function(name) {
   return `Hello, ${name}`; 
 }
 
@@ -55,7 +55,7 @@ let newGreet = function(name) {
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-var groceries = ['Apple', 'Milk', 'Eggs', 'Bread'];
+var groceries = ["apples","milk","eggs","bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -66,8 +66,8 @@ var groceries = ['Apple', 'Milk', 'Eggs', 'Bread'];
 
 
 let dog = {
-  name:"Ghost",
-  color:"white",
+  name:'ghost',
+  color:'white',
   age: 1,
   goodBoy: true
 
@@ -77,7 +77,7 @@ let dog = {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-var devMountainClassPet = console.log(dog.name);
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -173,16 +173,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = [""];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck"];
+let bathroomScope = ["duck","rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "rubberDuck"];
+let bathtubScope = ["duck", "rubberDuck","sailorDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck"];
+let pondScope = ["realDuck", "duck", "rubberDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
@@ -197,4 +197,4 @@ age++;
 
 // Good news! We can live forever. Set your age to 999
 
-age =99;
+age = 999;
